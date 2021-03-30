@@ -12,17 +12,13 @@
        </style>
   </head>
 
-  <body style="margin: 0px;">
-    <!-- 배경 따로 수정 필요없음 -->
+  <body>
     <div
-      class="flexRC"
+      class="mainContainer"
       style="background-color: white; width: 100vw; height: 100vh;"
     >
-      <!-- 실제 명함 부분 -->
-      <!-- 반응형으로 전체 화면 너비의 70%를 명항의 가로 길이로 함 -->
-      <!-- 세로길이는 가로길이 기준으로 바뀜 -->
       <div
-        class="flexC"
+        class="subContainer"
         style="
           background-color: #5F89FA;
           max-width: 1280px;
@@ -35,9 +31,8 @@
           border-radius : 15px;
         "
       >
-        <!-- 윗 부분 -->
-        <div class="flexR" style="height: 40%; padding : 3%; justify-content : flex-start">
-          <!-- 이미지 -->
+        <div class="flexBox" style="height: 40%; padding : 3%; justify-content : flex-start">
+       
           <div style="width: 40%; margin-top : 10%">
             <img
               src="image/lion.jpeg"
@@ -48,20 +43,20 @@
            
           </div>
 
-          <div class="flexR" style="width: 60%; height: 110px; margin-top : 10%;">
+          <div class="flexBox" style="width: 60%; height: 110px; margin-top : 10%;">
             <div class="flexC" style="justify-content: space-between; align-content: space-around; height: 100%;">
                 <div class="name" style="font-size:xx-large">
                     Ahn kyung rok
                 </div>
                
-                <div style="height: 40px; background: rgb(195, 185, 208,0.8); padding-left: 10%; padding-bottom : 2px; width : 120%;"><p>tel. 010-4688-9751</p></div>
+                <div class="flexBox"style="height: 40px; background: rgb(195, 185, 208,0.8); padding-left: 10%; padding-bottom : 2px; width : 120%; border-radius: 15px; margin-top : 5px;"><p>tel. 010-4688-9751</p></div>
             </div>
           </div>
         </div>
  
   
         <div
-          class="flexR"
+          class="flexBox"
           style="
             height: 50%;
             padding: 5%;
@@ -73,7 +68,7 @@
         >
         
           <div
-            class="flexC"
+            class="subContainer"
             style="height: 100%; flex-grow: 1; justify-content: space-between; 
             "
           >
@@ -91,9 +86,9 @@
         </div>
             
           </div>
-          <!-- 열2 -->
+         
           <div
-            class="flexC"
+            class="subContainer"
             style="height: 100%; flex-grow: 1; justify-content: space-between;"
           >
           <div>

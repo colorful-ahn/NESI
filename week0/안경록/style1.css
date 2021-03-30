@@ -1,50 +1,16 @@
-* {
-    box-sizing: bolder-box;
-  }
-  
-  .flexR {
-    display: flex;
-    align-items: center;
-  }
-  
-  .flexC {
-    display: flex;
-    flex-direction: column;
-  }
-  
-  .flexRC {
+  .mainContainer {
     display: flex;
     justify-content: center;
     align-items: center;
   }
-  
-  .flexCC {
+  .subContainer {
     display: flex;
     flex-direction: column;
-    justify-content: center;
+  }
+  .flexBox {
+    display: flex;
     align-items: center;
   }
-  
-  .nametext {
-    font: bold normal normal calc(70vw * 0.05) NanumSquare;
-    letter-spacing: calc(70vw * 0.002);
-    color: #ffffff;
-  }
-  
-  .subtext {
-    margin-top: 4%;
-    font: normal normal normal calc(70vw * 0.025) NanumSquare;
-    letter-spacing: calc(70vw * 0.001);
-    color: #ffffff;
-  }
-  
-  .url {
-    text-decoration: none;
-    margin-left: 3%;
-    font: normal normal normal calc(70vw * 0.02) Arial;
-    color: white;
-  }
-
   .name{
       color :#212529;
       font-weight: 900;
@@ -52,4 +18,5 @@
 
   .text{
       color :#212529;
+      font-size: 1.3rem;
   }
